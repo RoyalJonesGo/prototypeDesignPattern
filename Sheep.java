@@ -1,23 +1,8 @@
 public class Sheep implements Animal {
-    private int legs;
-    private String sound;
-    private String food;
-    private String name;
-
-    public int getLegs() {
-        return legs;
-    }
-
-    public String getSound() {
-        return sound;
-    }
-
-    public String getFood() {
-        return food;
-    }
-    public String getName() {
-        return name;
-    }
+    int legs;
+    String sound;
+    String food;
+    String name;
 
     public Sheep(int legs, String sound, String food, String name) {
         this.legs = legs;
