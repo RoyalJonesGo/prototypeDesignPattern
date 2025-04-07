@@ -1,5 +1,5 @@
 public interface Animal{
-    Animal clone();
-    void makeSound();
-    String getType();
+    public Animal clone();
+    public void makeSound();
+    public String getType();
 }
