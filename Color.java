@@ -1,4 +1,3 @@
-// Concrete prototype: Color (Example of a different kind of prototype)
 public class Color implements Animal{
     int legs;
     String sound;
