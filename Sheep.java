@@ -3,7 +3,7 @@ public class Sheep implements Animal {
     String sound;
     String food;
     String name;
-
+    
     public Sheep(int legs, String sound, String food, String name) {
         this.legs = legs;
         this.sound = sound;
